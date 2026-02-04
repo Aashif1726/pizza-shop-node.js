@@ -12,7 +12,7 @@ Order Received Baking large pizza with the mushrooms
 Serving Complementary Drink
 Current Order Number is 1
 
-#sample input 2
+# sample input 2
 size-small
 toppings - mutton
 
