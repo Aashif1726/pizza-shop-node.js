@@ -5,9 +5,9 @@ class PizzaShop extends EventEmitter{
         super()
         this.orderNumber=0;
     }
-    order(size,toppings){
+    order(category,toppings){
         this.orderNumber++;
-        this.emit("order",size,toppings)
+        this.emit("order",category,toppings)
     }
     displayOrderNumber(){
         console.log(`Current Order Number is ${this.orderNumber}`)

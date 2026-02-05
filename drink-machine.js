@@ -1,7 +1,10 @@
 class DrinkMachine{
-    serveDrink(size){
-        if(size==="large"){
+    serveDrink(category){
+        if(category==="Non-Veg"){
             console.log("Serving Complementary Drink")
+        }
+        else{
+            console.log("Serving Ice Cream")
         }
     }
 }
